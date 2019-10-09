@@ -9,7 +9,7 @@ char *my_strcpy(char *t, char *s)
 {
 	char *p = t; 
 	while (*t ++ = *s ++);
-	return p;
+	return t;
 }
 int main(void) {
 	int i;
